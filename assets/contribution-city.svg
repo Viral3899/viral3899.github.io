@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" role="img" aria-label="Viral Sherathiya GitHub contribution city">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop stop-color="#071026"/>
+    <stop offset=".55" stop-color="#0b1020"/>
+    <stop offset="1" stop-color="#03050d"/>
+  </linearGradient>
+  <linearGradient id="tower" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#38bdf8"/>
+    <stop offset=".55" stop-color="#6366f1"/>
+    <stop offset="1" stop-color="#a78bfa"/>
+  </linearGradient>
+  <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+    <stop stop-color="#111827"/>
+    <stop offset="1" stop-color="#020617"/>
+  </linearGradient>
+  <pattern id="stars" width="130" height="80" patternUnits="userSpaceOnUse">
+    <circle cx="18" cy="20" r="1.2" fill="#c4b5fd" opacity=".55"/>
+    <circle cx="88" cy="52" r="1" fill="#67e8f9" opacity=".45"/>
+    <circle cx="118" cy="12" r=".8" fill="#fff" opacity=".4"/>
+  </pattern>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+
+<!-- sky -->
+<rect width="1600" height="520" rx="30" fill="url(#bg)"/>
+<rect width="1600" height="310" fill="url(#stars)"/>
+<circle cx="1300" cy="95" r="42" fill="#e2e8f0" opacity=".9"/>
+<circle cx="1300" cy="95" r="68" fill="none" stroke="#94a3b8" stroke-opacity=".12"/>
+
+<!-- title -->
+<text x="65" y="58" fill="#67e8f9" font-family="monospace" font-size="18" font-weight="700" letter-spacing="4">
+  GITHUB // CONTRIBUTION CITY
+</text>
+<text x="65" y="86" fill="#94a3b8" font-family="Arial" font-size="16">
+  Every contribution becomes part of the skyline.
+</text>
+
+<!-- distant skyline -->
+<g fill="#111a33" opacity=".8">
+  <path d="M0 315V260h60v55h35v-95h70v95h28v-50h65v50h32v-120h80v120h35v-75h55v75h35v-105h95v105h25v-55h70v55h30v-145h100v145h30v-90h65v90h35v-125h90v125h35v-70h60v70h35v-110h95v110h30v-80h70v80h30v-125h95v125h40v-75h70v75h30v-100h80v100h35v-55h80v55h35v-125h90v125h30v-70h65v70h40v-55h60v55h35v-90h75v90h35v-50h65v50h40v-70h75v70H0Z"/>
+</g>
+
+<!-- main contribution blocks -->
+<g transform="translate(90 320)">
+  <!-- base -->
+  <path d="M0 90L720 0L1510 85L790 180Z" fill="url(#road)" stroke="#1e293b"/>
+
+  <!-- towers, representing contribution intensity -->
+  <g stroke="#334155" stroke-width="1">
+
+    <g transform="translate(40 30)">
+      <path d="M0 60V15L42 0L84 15V60Z" fill="url(#tower)"/>
+      <path d="M14 57V20M30 51V14M46 48V14M62 42V20" opacity=".55"/>
+      <path d="M0 15L42 30L84 15" fill="none"/>
+    </g>
+
+    <g transform="translate(150 12)">
+      <path d="M0 70V0L52 -18L104 0V70Z" fill="url(#tower)"/>
+      <path d="M14 60V10M34 53V4M54 45V3M74 55V8M91 62V12" opacity=".55"/>
+      <path d="M0 0L52 18L104 0" fill="none"/>
+    </g>
+
+    <g transform="translate(285 45)">
+      <path d="M0 50V5L40 -8L80 5V50Z" fill="url(#tower)"/>
+      <path d="M12 44V11M28 39V7M45 35V8M61 40V12" opacity=".55"/>
+    </g>
+
+    <g transform="translate(390 -8)">
+      <path d="M0 95V5L58 -18L116 5V95Z" fill="url(#tower)"/>
+      <path d="M15 82V16M35 75V9M58 68V8M81 78V12M101 85V18" opacity=".55"/>
+      <path d="M0 5L58 28L116 5" fill="none"/>
+    </g>
+
+    <g transform="translate(540 24)">
+      <path d="M0 70V12L48 -5L96 12V70Z" fill="url(#tower)"/>
+      <path d="M14 61V19M33 54V13M51 49V12M70 57V18" opacity=".55"/>
+    </g>
+
+    <g transform="translate(665 -18)">
+      <path d="M0 105V0L64 -25L128 0V105Z" fill="url(#tower)"/>
+      <path d="M17 91V12M39 82V7M63 75V6M87 84V10M108 93V15" opacity=".55"/>
+      <path d="M0 0L64 27L128 0" fill="none"/>
+    </g>
+
+    <g transform="translate(825 42)">
+      <path d="M0 50V7L38 -5L76 7V50Z" fill="url(#tower)"/>
+      <path d="M12 45V13M29 40V10M46 37V11M61 42V14" opacity=".55"/>
+    </g>
+
+    <g transform="translate(930 4)">
+      <path d="M0 86V2L55 -17L110 2V86Z" fill="url(#tower)"/>
+      <path d="M15 74V12M34 68V6M55 62V5M76 70V10M94 78V15" opacity=".55"/>
+      <path d="M0 2L55 22L110 2" fill="none"/>
+    </g>
+
+    <g transform="translate(1070 30)">
+      <path d="M0 64V8L45 -6L90 8V64Z" fill="url(#tower)"/>
+      <path d="M13 56V15M30 50V10M47 46V10M65 52V15" opacity=".55"/>
+    </g>
+
+    <g transform="translate(1185 -5)">
+      <path d="M0 94V2L61 -20L122 2V94Z" fill="url(#tower)"/>
+      <path d="M16 80V12M38 73V6M61 67V5M84 76V10M105 84V15" opacity=".55"/>
+      <path d="M0 2L61 24L122 2" fill="none"/>
+    </g>
+
+    <g transform="translate(1340 38)">
+      <path d="M0 54V10L40 -4L80 10V54Z" fill="url(#tower)"/>
+      <path d="M12 49V16M29 44V12M46 41V12M62 46V16" opacity=".55"/>
+    </g>
+  </g>
+
+  <!-- windows -->
+  <g fill="#dbeafe" opacity=".9">
+    <g>
+      <rect x="62" y="354" width="6" height="6"/><rect x="79" y="348" width="6" height="6"/>
+      <rect x="174" y="325" width="7" height="7"/><rect x="193" y="318" width="7" height="7"/>
+      <rect x="426" y="300" width="7" height="7"/><rect x="448" y="292" width="7" height="7"/>
+      <rect x="699" y="302" width="7" height="7"/><rect x="721" y="293" width="7" height="7"/>
+      <rect x="964" y="326" width="7" height="7"/><rect x="987" y="319" width="7" height="7"/>
+      <rect x="1218" y="302" width="7" height="7"/><rect x="1240" y="294" width="7" height="7"/>
+    </g>
+  </g>
+</g>
+
+<!-- foreground road -->
+<path d="M0 462L800 405L1600 462V520H0Z" fill="url(#road)"/>
+<path d="M0 474L800 418L1600 474" fill="none" stroke="#334155" stroke-width="2"/>
+<g fill="#67e8f9" filter="url(#glow)">
+  <circle cx="470" cy="448" r="4">
+    <animate attributeName="cx" values="470;1080;470" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1130" cy="463" r="3">
+    <animate attributeName="cx" values="1130;520;1130" dur="6s" repeatCount="indefinite"/>
+  </circle>
+</g>
+
+<!-- contribution legend -->
+<g transform="translate(65 420)" font-family="monospace" font-size="12">
+  <text x="0" y="0" fill="#64748b">LOW</text>
+  <rect x="42" y="-12" width="14" height="14" rx="3" fill="#172554"/>
+  <rect x="62" y="-12" width="14" height="14" rx="3" fill="#3730a3"/>
+  <rect x="82" y="-12" width="14" height="14" rx="3" fill="#4f46e5"/>
+  <rect x="102" y="-12" width="14" height="14" rx="3" fill="#7c3aed"/>
+  <rect x="122" y="-12" width="14" height="14" rx="3" fill="#22d3ee"/>
+  <text x="145" y="0" fill="#64748b">HIGH</text>
+</g>
+
+<!-- animated skyline pulse -->
+<rect x="0" y="0" width="1600" height="520" rx="30" fill="none" stroke="#38bdf8" stroke-opacity=".2" stroke-width="2">
+  <animate attributeName="stroke-opacity" values=".08;.35;.08" dur="4s" repeatCount="indefinite"/>
+</rect>
+</svg>

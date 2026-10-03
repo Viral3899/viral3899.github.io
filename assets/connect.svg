@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 330" role="img" aria-label="Let's build something intelligent — Viral Sherathiya">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#070b16"/>
+    <stop offset=".48" stop-color="#17133a"/>
+    <stop offset="1" stop-color="#062c42"/>
+  </linearGradient>
+  <linearGradient id="line" x1="0" x2="1">
+    <stop stop-color="#22d3ee"/>
+    <stop offset=".5" stop-color="#818cf8"/>
+    <stop offset="1" stop-color="#a78bfa"/>
+  </linearGradient>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="6" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+    <path d="M42 0H0V42" fill="none" stroke="#94a3b8" stroke-opacity=".09"/>
+  </pattern>
+</defs>
+
+<rect width="1600" height="330" rx="30" fill="url(#bg)"/>
+<rect width="1600" height="330" rx="30" fill="url(#grid)"/>
+
+<circle cx="140" cy="65" r="90" fill="#22d3ee" opacity=".06"/>
+<circle cx="1470" cy="270" r="150" fill="#8b5cf6" opacity=".07"/>
+
+<!-- animated network lines -->
+<g stroke="url(#line)" stroke-opacity=".25" fill="none">
+  <path d="M0 265 C260 130 390 310 650 180 S1050 80 1600 210"/>
+  <path d="M0 285 C260 155 410 330 670 205 S1110 105 1600 235"/>
+</g>
+
+<!-- header -->
+<text x="800" y="72" text-anchor="middle"
+      fill="#ffffff"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="40"
+      font-weight="800">
+  LET'S BUILD SOMETHING INTELLIGENT
+</text>
+
+<text x="800" y="108" text-anchor="middle"
+      fill="#cbd5e1"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="18">
+  AI systems • automation • agents • production ML
+</text>
+
+<!-- connection buttons -->
+<g font-family="monospace" font-size="15" text-anchor="middle">
+
+  <g transform="translate(280 190)">
+    <rect x="-130" y="-25" width="260" height="52" rx="26"
+          fill="#0b1220" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="-88" cy="1" r="15" fill="#111827" stroke="#38bdf8"/>
+    <text x="-88" y="6" fill="#67e8f9" font-size="13">GH</text>
+    <text x="20" y="6" fill="#e0f2fe">GITHUB</text>
+    <circle cx="108" cy="1" r="4" fill="#67e8f9" filter="url(#glow)">
+      <animate attributeName="opacity" values=".2;1;.2" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g transform="translate(800 190)">
+    <rect x="-130" y="-25" width="260" height="52" rx="26"
+          fill="#0b1220" stroke="#a78bfa" stroke-width="2"/>
+    <circle cx="-88" cy="1" r="15" fill="#111827" stroke="#a78bfa"/>
+    <text x="-88" y="6" fill="#c4b5fd" font-size="13">in</text>
+    <text x="20" y="6" fill="#e0e7ff">LINKEDIN</text>
+    <circle cx="108" cy="1" r="4" fill="#c4b5fd" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;.2;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g transform="translate(1320 190)">
+    <rect x="-130" y="-25" width="260" height="52" rx="26"
+          fill="#0b1220" stroke="#22d3ee" stroke-width="2"/>
+    <circle cx="-88" cy="1" r="15" fill="#111827" stroke="#22d3ee"/>
+    <text x="-88" y="6" fill="#67e8f9" font-size="13">↗</text>
+    <text x="20" y="6" fill="#e0f2fe">PORTFOLIO</text>
+    <circle cx="108" cy="1" r="4" fill="#67e8f9" filter="url(#glow)">
+      <animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</g>
+
+<!-- animated pulse -->
+<circle cx="0" cy="265" r="6" fill="#67e8f9" filter="url(#glow)">
+  <animateMotion dur="6s" repeatCount="indefinite"
+    path="M0,0 C260,-135 390,45 650,-85 S1050,-185 1600,-55"/>
+</circle>
+
+<text x="800" y="285" text-anchor="middle"
+      fill="#64748b"
+      font-family="monospace"
+      font-size="12"
+      letter-spacing="2">
+  PYTHON • GENAI • RAG • AGENTS • MCP • MLOPS
+</text>
+
+<rect x="1" y="1" width="1598" height="328" rx="30"
+      fill="none" stroke="url(#line)" stroke-opacity=".3" stroke-width="2">
+  <animate attributeName="stroke-opacity" values=".15;.5;.15" dur="4s" repeatCount="indefinite"/>
+</rect>
+</svg>

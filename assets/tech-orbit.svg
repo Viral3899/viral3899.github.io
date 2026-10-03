@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 500">
+<defs>
+<radialGradient id="g"><stop stop-color="#1e1b4b" stop-opacity=".9"/><stop offset="1" stop-color="#050816" stop-opacity="0"/></radialGradient>
+<linearGradient id="c"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#6366f1"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#64748b" stroke-opacity=".1"/></pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1600" height="500" rx="30" fill="#050816"/>
+<rect width="1600" height="500" rx="30" fill="url(#grid)"/>
+<ellipse cx="800" cy="260" rx="600" ry="300" fill="url(#g)"/>
+
+<text x="800" y="54" text-anchor="middle" fill="#67e8f9" font-family="monospace" font-size="17" font-weight="700" letter-spacing="5">VIRAL // AI TECHNOLOGY ORBIT</text>
+<text x="800" y="82" text-anchor="middle" fill="#94a3b8" font-family="Arial" font-size="16">The stack behind my AI systems</text>
+
+<g transform="translate(800 270)">
+<ellipse rx="560" ry="155" fill="none" stroke="#334155" stroke-width="2"/>
+<ellipse rx="420" ry="115" fill="none" stroke="#38bdf8" stroke-opacity=".25" stroke-width="2"/>
+<ellipse rx="280" ry="78" fill="none" stroke="#a78bfa" stroke-opacity=".25" stroke-width="2"/>
+<ellipse rx="560" ry="155" fill="none" stroke="#38bdf8" stroke-opacity=".18" stroke-dasharray="7 14">
+<animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="35s" repeatCount="indefinite"/>
+</ellipse>
+
+<g stroke="#475569" stroke-opacity=".35">
+<path d="M0 0L-530 -125"/><path d="M0 0L-365 -100"/><path d="M0 0L-210 100"/><path d="M0 0L210 -100"/><path d="M0 0L365 100"/><path d="M0 0L530 125"/><path d="M0 0L0 -150"/><path d="M0 0L0 150"/>
+</g>
+
+<circle r="108" fill="#070b16" stroke="url(#c)" stroke-width="4" filter="url(#glow)"/>
+<circle r="84" fill="#0f172a" stroke="#334155"/>
+<circle r="58" fill="url(#c)" opacity=".18">
+<animate attributeName="r" values="52;67;52" dur="3s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values=".14;.3;.14" dur="3s" repeatCount="indefinite"/>
+</circle>
+<text y="-7" text-anchor="middle" fill="#fff" font-family="Arial" font-size="24" font-weight="800">AI CORE</text>
+<text y="21" text-anchor="middle" fill="#67e8f9" font-family="monospace" font-size="12">BUILD • REASON • SHIP</text>
+
+<g font-family="monospace" text-anchor="middle" font-size="15">
+<g transform="translate(-530 -125)"><circle r="42" fill="#0b1220" stroke="#38bdf8" stroke-width="2"/><text y="5" fill="#e0f2fe">PYTHON</text></g>
+<g transform="translate(-365 -100)"><circle r="42" fill="#0b1220" stroke="#a78bfa" stroke-width="2"/><text y="5" fill="#e0f2fe">LLM</text></g>
+<g transform="translate(-210 100)"><circle r="42" fill="#0b1220" stroke="#38bdf8" stroke-width="2"/><text y="5" fill="#e0f2fe">RAG</text></g>
+<g transform="translate(0 -150)"><circle r="42" fill="#0b1220" stroke="#a78bfa" stroke-width="2"/><text y="5" fill="#e0f2fe">MCP</text></g>
+<g transform="translate(210 100)"><circle r="42" fill="#0b1220" stroke="#38bdf8" stroke-width="2"/><text y="5" fill="#e0f2fe">AWS</text></g>
+<g transform="translate(365 -100)"><circle r="42" fill="#0b1220" stroke="#a78bfa" stroke-width="2"/><text y="5" fill="#e0f2fe">DOCKER</text></g>
+<g transform="translate(530 125)"><circle r="42" fill="#0b1220" stroke="#38bdf8" stroke-width="2"/><text y="5" fill="#e0f2fe">API</text></g>
+<g transform="translate(0 150)"><circle r="42" fill="#0b1220" stroke="#a78bfa" stroke-width="2"/><text y="5" fill="#e0f2fe">ML</text></g>
+</g>
+
+<circle r="6" fill="#67e8f9" filter="url(#glow)"><animateMotion dur="5s" repeatCount="indefinite" path="M-530,-125 L0,0 L530,125"/></circle>
+<circle r="5" fill="#c4b5fd" filter="url(#glow)"><animateMotion dur="6s" repeatCount="indefinite" path="M530,125 L0,0 L-530,-125"/></circle>
+</g>
+
+<g font-family="monospace" font-size="13" text-anchor="middle">
+<g transform="translate(300 448)"><rect x="-105" y="-18" width="210" height="36" rx="18" fill="#0f172a" stroke="#334155"/><text y="5" fill="#67e8f9">AGENTIC SYSTEMS</text></g>
+<g transform="translate(800 448)"><rect x="-105" y="-18" width="210" height="36" rx="18" fill="#0f172a" stroke="#334155"/><text y="5" fill="#c4b5fd">KNOWLEDGE SYSTEMS</text></g>
+<g transform="translate(1300 448)"><rect x="-105" y="-18" width="210" height="36" rx="18" fill="#0f172a" stroke="#334155"/><text y="5" fill="#67e8f9">PRODUCTION ML</text></g>
+</g>
+</svg>
